@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "patterns_otus_course_brailov"
+version = "0.1.0"
+description = "Домашние задания для курса \"Шаблоны проектирования\" от Otus."
+authors = ["Andrew Brailov <dushes253@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/qxiddd/patterns_otus_course_brailov"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipython = "^7.27.0"
+pdbpp = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
